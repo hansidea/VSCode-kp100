@@ -1,4 +1,4 @@
-//請放置在這個產品目錄頁下 https://kp100.tw/shop
+//請放置在這個產品目錄頁下 https://kp100.tw/shop 的 <head> 標籤內
 {
   "@context": "http://schema.org",
   "@type": "ItemList",
