@@ -1,0 +1,12 @@
+<!--放置位置：https://kp100.tw/sitemap.xml-->
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>https://kp100.tw/sitemap_kp100_tw.xml</loc>
+      <lastmod>2023-05-08</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://kp100.tw/sitemap_2024kp_oen_tw.xml</loc>
+      <lastmod>2023-05-08</lastmod>
+   </sitemap>
+</sitemapindex>
