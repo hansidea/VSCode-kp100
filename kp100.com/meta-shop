@@ -1,4 +1,6 @@
-//請放置在這個產品目錄頁下 https://kp100.tw/shop 的 <head> 標籤內
+//1.請放置在這個產品目錄頁下 https://kp100.tw/shop 的 <head> 標籤內
+//2.以下範例為2組產品，請自動依照畫面中的產品數動態產生
+
 {
   "@context": "http://schema.org",
   "@type": "ItemList",
