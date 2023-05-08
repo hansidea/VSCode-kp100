@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<!--GTM中的HTML-->
+
+<script>
+  (function() {
+    var schemaWebSite1 = {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "url": "https://kp100.tw/"
+    };
+  
+    var schemaWebSite2 = {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "url": "https://2024kp.oen.tw/good"
+    };
+  
+    var schemaOrganization = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "阿北加油站",
+      "alternateName": "KP100",
+      "url": "https://kp100.tw/",
+      "logo": ".png",
+      "email": "service@kp100.tw",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "areaServed": ["TW"],
+          "availableLanguage": ["Chinese"]
+        }
+      ],
+      "sameAs": [
+        "https://kp100.tw/",
+        "https://2024kp.oen.tw/good"
+      ]
+    };
+    var schemaItemList = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [{
+          "@type": "SiteNavigationElement",
+          "position": 1,
+          "name": "柯式好物",
+          "description": "",
+          "url": "https://2024kp.oen.tw/good"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 2,
+          "name": "品牌故事",
+          "description": "",
+          "url": "https://kp100.tw/features"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 3,
+          "name": "阿北跑起來",
+          "description": "",
+          "url": "https://kp100.tw/articles"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 4,
+          "name": "最新消息",
+          "description": "",
+          "url": "https://kp100.tw/news"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 5,
+          "name": "購物說明",
+          "description": "",
+          "url": "https://kp100.tw/helps/shop"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 6,
+          "name": "運送方式",
+          "description": "",
+          "url": "https://kp100.tw/helps/shipping"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 6,
+          "name": "聯絡我們",
+          "description": "",
+          "url": "https://kp100.tw/contactus"
+        }
+      ]
+    };
+  
+    var jsonLdWebSite1 = document.createElement('script');
+    jsonLdWebSite1.type = 'application/ld+json';
+    jsonLdWebSite1.text = JSON.stringify(schemaWebSite1);
+    document.head.appendChild(jsonLdWebSite1);
+  
+    var jsonLdWebSite2 = document.createElement('script');
+    jsonLdWebSite2.type = 'application/ld+json';
+    jsonLdWebSite2.text = JSON.stringify(schemaWebSite2);
+    document.head.appendChild(jsonLdWebSite2);
+
+var jsonLdOrganization = document.createElement('script');
+jsonLdOrganization.type = 'application/ld+json';
+jsonLdOrganization.text = JSON.stringify(schemaOrganization);
+document.head.appendChild(jsonLdOrganization);
+
+var jsonLdItemList = document.createElement('script');
+jsonLdItemList.type = 'application/ld+json';
+jsonLdItemList.text = JSON.stringify(schemaItemList);
+document.head.appendChild(jsonLdItemList);
+
+})();
+</script>

@@ -1,0 +1,55 @@
+//請放置在這個產品目錄頁下 https://kp100.tw/shop
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      //頁面上的順序，1...2...依序產生以此類推
+      "position": 1,
+      //自動抓取-第一項商品的購物頁面
+      "url": "https://2024kp.oen.tw/good/2OzXxRHn6GxsuwdH61lp6tJq5iE",
+      "item": {
+        "@type": "Product",
+        //自動抓取-產品名稱
+        "name": "阿北襯衫T",
+        //自動抓取-產品圖片URL
+        "image": "https://static-assets.oen.tw/images/img-2OzXwvvi5kl5Eb6h7Th3KRHl88V.jpg",
+        //自動抓取-產品描述文字
+        "description": "阿北襯衫T的簡短描述",
+        "offers": {
+          "@type": "Offer",
+          //自動抓取-抓取價格
+          "price": 990,
+          "priceCurrency": "TWD",
+          "availability": "http://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "阿北加油站"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://2024kp.oen.tw/good/2PVDO8PXGdLsf2k1LjMS1GENCGa",
+      "item": {
+        "@type": "Product",
+        "name": "KP 嚴選小毛巾",
+        "image": "https://static-assets.oen.tw/images/img-2PVDJT96StGORSgBXoqxh6CqTRR.jpg",
+        "description": "嚴選小毛巾的簡短描述",
+        "offers": {
+          "@type": "Offer",
+          "price": 1000,
+          "priceCurrency": "TWD",
+          "availability": "http://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "阿北加油站"
+          }
+        }
+      }
+    }
+  ]
+}
